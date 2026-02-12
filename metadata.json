@@ -1,0 +1,7 @@
+{
+  "name": "TwoDay SmarTask",
+  "description": "TwoDay SmarTask\nPlay to win",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
