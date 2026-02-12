@@ -442,8 +442,8 @@ const App: React.FC = () => {
             </div>
           </div>
           
-          <h1 className="text-3xl font-black text-center text-slate-900 mb-2">{isRegistering ? 'SaaS Registration' : 'AI SmarTask SaaS'}</h1>
-          <p className="text-center text-slate-400 text-sm mb-10 font-medium italic">Multi-tenant Operations Engine</p>
+          <h1 className="text-3xl font-black text-center text-slate-900 mb-2">{isRegistering ? 'SaaS Registration' : 'TwoDay SmarTask'}</h1>
+          <p className="text-center text-slate-400 text-sm mb-10 font-medium italic">Play to Win</p>
 
           {!isRegistering ? (
             <form onSubmit={handleLogin} className="space-y-6">
@@ -482,7 +482,7 @@ const App: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="bg-purple-600 p-2.5 rounded-xl shadow-lg shadow-purple-50">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5"><path d="M11 12h6"/><path d="M11 16h6"/><path d="M11 20h6"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5"><path d="M11 12h6"/><path d="M11 16h6"/><path d="M11 20h6"/><path d="M13 3H3v18h18V11"/></svg>
             </div>
             <div>
               <h1 className="text-lg font-black text-slate-900 leading-none">{activeTenant.name}</h1>
